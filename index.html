@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Kim</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="cards" class="ui special cards">
+        <div class="card">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Contact</div>
+                </div>
+              </div>
+            </div>
+            <img class="image" src="images/alex.jpg">
+          </div>
+          <div class="content">
+            <a class="header">Alex</a>
+            <div class="meta">
+              <span class="date">Human. Programming since 2015</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card">
+          <div class="blurring dimmable image">
+            <div class="ui inverted dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui primary button">Check</div>
+                </div>
+              </div>
+            </div>
+          <img class="image" href="https://github.com/alexkim-is/FitnessBot" src="images/fitnessbot.png">
+          </div>
+
+          <div class="content">
+            <a class="header" href="https://github.com/alexkim-is/FitnessBot">Fitness Bot</a>
+            <div class="meta">
+              <span class="date">Workout SMS Chatbot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="cards" class="ui special cards">
+        <div class="ui card">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Contact</div>
+                </div>
+              </div>
+            </div>
+            <img class="image" src="images/webvr.png">
+          </div>
+          <div class="content">
+            <a class="header" href="https://github.com/alexkim-is/Inflight">InFlight</a>
+            <div class="meta">
+              <span class="date">Inflight Entertainment System via Web VR</span>
+            </div>
+          </div>
+        </div>
+        <div class="ui card">
+          <div class="blurring dimmable image">
+            <div class="ui dimmer">
+              <div class="content">
+                <div class="center">
+                  <div class="ui inverted button">Contact</div>
+                </div>
+              </div>
+            </div>
+            <img class="image" src="images/cat.png">
+          </div>
+          <div class="content">
+            <a class="header" href="https://github.com/alexkim-is/CatAmazing">Cat Amazing</a>
+            <div class="meta">
+              <span class="date">Shop for cat food</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+
+  <script>
+
+  $(function() {
+    $('.special.cards .image').hide(10).show({on:'hover'})
+  })
+
+
+  </script>
+</html>
