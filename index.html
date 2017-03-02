@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alex Kim</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 id="name">Alex S. Kim - Web Developer<a id="bar">|</a></h1>
+    <div id="cards" class="ui special cards">
+      <div class="ui card">
+        <a class="description">Hi there! Welcome.</a>
+        <a class="image" href="https://www.linkedin.com/in/alex-s-kim-55841577/">
+          <img src="images/alex.jpg" onmouseover="this.src='images/alex2.jpg'" onmouseout="this.src='images/alex.jpg'">
+        </a>
+        <div class="content">
+          <div class="ui inverted segment">
+            <button class="ui inverted blue button">Javascript</button>
+            <button class="ui inverted blue button">HTML5</button>
+            <button class="ui inverted blue button">CSS3</button>
+            <button class="ui inverted blue button">Coffee</button>
+            <button class="ui inverted blue button">Weight Lifting</button>
+          </div>
+        </div>
+      </div>
+      <div class="ui card" >
+        <a class="description"><b>FitnessBot</b>: SMS Chatbot</a>
+        <a class="image" href="https://goo.gl/w0C1uH">
+          <img src="images/fitnessbot.png" onmouseover="this.src='images/fitnessbot2.jpg'" onmouseout="this.src='images/fitnessbot.png'">
+        </a>
+        <div class="content">
+          <div class="ui inverted segment">
+            <button class="ui inverted orange button">Vue.js</button>
+            <button class="ui inverted orange button">Node.js/Express</button>
+            <button class="ui inverted orange button">Twilio API</button>
+            <button class="ui inverted orange button">Api.ai</button>
+            <button class="ui inverted orange button">PostgreSQL/Knex</button>
+          </div>
+        </div>
+      </div>
+      <div class="ui card">
+        <a class="description"><b>InFlight</b>: Entertainment via Web VR</a>
+        <a class="image" href="https://goo.gl/V9bbpx">
+          <img src="images/webvr.png" onmouseover="this.src='images/webvr2.jpg'" onmouseout="this.src='images/webvr.png'">
+        </a>
+        <div class="content">
+          <div class="ui inverted segment">
+            <button class="ui inverted teal button">React/Redux</button>
+            <button class="ui inverted teal button">ES2015</button>
+            <button class="ui inverted teal button">A-frame</button>
+            <button class="ui inverted teal button">Node.js</button>
+            <button class="ui inverted teal button">Google Cardboard</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="links">
+      <h4 id="findme">Find me here:</h4>
+        <a href="https://www.linkedin.com/in/alex-s-kim-55841577/">
+          <i id="icon1" class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        </a>
+        <a href="https://github.com/alexkim-is">
+          <i id="icon2" class="fa fa-github fa-3x" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:alexkimwrites@gmail.com">
+          <i id="icon3" class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+        </a>
+    </div>
+  </body>
+
+  <script>
+  $(function() {
+    $('.special.cards .image').hide(10).show({on:'hover'})
+  })
+    </script>
+</html>

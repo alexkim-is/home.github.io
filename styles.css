@@ -1,0 +1,73 @@
+
+#cards {
+  flex:auto;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.card {
+  min-width: 27%;
+}
+
+.card:hover {
+  transform: scale(1.02)
+}
+
+#cards .image {
+  padding: 0.1em;
+}
+
+#name {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  font-size: 33px;
+}
+
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4s steps(90, end);
+}
+
+@keyframes type{
+  from { width: 0; }
+}
+
+#bar {
+  animation: blink 1s infinite;
+  color: black;
+}
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+#links {
+  text-align: center;
+}
+
+#findme {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
+
+.ui.inverted.button {
+  font-size: 12px;
+}
+
+#icon1, #icon2, #icon3 {
+  color: black;
+  margin: 0 2px 0 2px;;
+}
+
+#icon1:hover, #icon2:hover, #icon3:hover {
+  transform: scale(1.05);
+}
+
+.description {
+  font-size: 15px;
+  padding: 4px;
+}
