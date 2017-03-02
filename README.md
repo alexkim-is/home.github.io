@@ -2,4 +2,4 @@ Alex Kim
 
 Web developer
 
-Find my projects here: 
+https://alexkim-is.github.io/home.github.io/
